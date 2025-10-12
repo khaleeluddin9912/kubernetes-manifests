@@ -1,4 +1,4 @@
-kind: Replicasets
+kind: ReplicaSet
 apiVersion: apps/v1
 metadata:
   name: nginx-replicasets
@@ -10,11 +10,13 @@ spec:
     matchLabels:
       app: nginx
 
+
   template:
     metadata:
       name: nginx-rep-pod
       labels:
         app: nginx
+
 
     spec:
       containers:
