@@ -1,5 +1,4 @@
-
-kind: DaemonSets
+kind: DaemonSet
 apiVersion: apps/v1
 metadata:
   name: nginx-daemonsets
