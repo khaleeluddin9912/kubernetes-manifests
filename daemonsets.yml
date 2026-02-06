@@ -12,7 +12,6 @@ spec:
       name: nginx-dae-pod
       labels:
         app: nginx
-
     spec:
       containers:
         - name: nginx
