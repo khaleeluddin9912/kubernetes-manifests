@@ -3,7 +3,6 @@ apiVersion: apps/v1
 metadata:
   name: nginx-daemonsets
   namespace: nginx
-
 spec:
   selector:
     matchLabels:
